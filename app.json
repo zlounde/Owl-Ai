@@ -1,5 +1,5 @@
 {
-  "name": "Owl Ai BOT",
+  "name": "zekky Ai BOT",
   "description": "This is a whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -25,7 +25,7 @@
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114018035, 254741889898 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254115521408 ",
       "required": true
     },
     "NOT_OWNER_MSG": {
@@ -56,15 +56,15 @@
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
-      "required": true
+      "required": false
 },
  "AUTOVIEW": {
       "description": "Input true if you want bot to automatically read status update",
-      "required": false
+      "required": true
 },
  "WA_PRESENCE": {
       "description": "Input either recording or typing. This enables bot to simulate typing or recording.",
-      "required": false
+      "required": true
 },
  "ANTILINK": {
       "description": "Input TRUE if you want bot to kick link senders",
@@ -80,7 +80,7 @@
 },
  "WELCOME": {
       "description": "Input TRUE if you want bot to send welcome message to new members.",
-      "required": false
+      "required": true
 },
  "ANTIFOREIGN": {
       "description": "Input TRUE if you want bot to kick non-kenyan numbers joining.",
